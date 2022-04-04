@@ -5,37 +5,40 @@ public class IncrementAndDecrement {
 	public static void main(String[] args) {
 		     
 		 //post Increment
-			int a = 10;
-			int b = a++;
-			
-			System.out.println(a);//11
-			System.out.println(b);//10
+	        int a = 9;
+	        int b =a++;
+	        
+	System.out.println(a);//10
+		System.out.println(b);//9
 		
-			
-			//pre increment
-		 	
-		   int i = 6;
-		   int j = ++i;
-		   
-		   System.out.println(i);//7
-		   System.out.println(j);//7
-		   
-		   //post Decrement
-		   
-		   int m = 9;
-		   int n = m--;
-		   
-		   System.out.println(m);//8
-		   System.out.println(n);//9
+		//pre Increment
+		 
+		    int i = 22;
+		    int j = ++i;
+		    
+		    System.out.println(i);//23
+		    System.out.println(j);//23
 		
-		   //pre Decrement
-		   
-		int p = 33;
-		int q = --p;
+		   //post  Decrement 
+		    
+		    int m = 55;
+		    int n = m--;
+		    
+		    System.out.println(m);//54
+		    System.out.println(n);//55
+		
+		  //pre Decrement
+		    
+		    int p = 49;
+		    int q = --p;
+		    
+		    System.out.println(p);//48
+		    System.out.println(q);//48
 		
 		
-		System.out.println(p);//32
-		System.out.println(q);//32
+		
+		
+		
 		
 		
 		
